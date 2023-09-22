@@ -1,0 +1,24 @@
+1. IP Address (Internet Protocol Address):
+•	An IP address is a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.
+•	IP addresses are used for two main purposes: identifying the host or network interface and providing the location of the host in the network.
+•	There are two main versions of IP addresses in use today: IPv4 (32-bit) and IPv6 (128-bit). IPv6 was introduced to address the exhaustion of IPv4 addresses.
+2. Port:
+•	A port is a 16-bit number used to identify a specific process or service on a device in a TCP/IP network.
+•	Ports are used to enable multiple services or processes to run on a single device and communicate with the outside world.
+•	Commonly used ports include Port 80 for HTTP, Port 443 for HTTPS, Port 25 for SMTP (email), and many others.
+3. HTTP Methods (Hypertext Transfer Protocol Methods):
+•	HTTP methods are verbs used in the HTTP protocol to indicate the desired action to be performed on a resource identified by a URL (Uniform Resource Locator).
+•	The most commonly used HTTP methods include:
+•	GET: Retrieve data from the server.
+•	POST: Send data to the server for processing.
+•	PUT: Update a resource on the server.
+•	DELETE: Remove a resource from the server.
+•	HEAD: Retrieve headers of a resource without its body.
+•	PATCH: Apply partial modifications to a resource.
+•	These methods are used by web clients (such as browsers) to interact with web servers.
+4. MAC Address (Media Access Control Address):
+•	A MAC address is a unique identifier assigned to a network interface card (NIC) or network adapter in a computer or networking device.
+•	MAC addresses are used at the data link layer (Layer 2) of the OSI model to ensure that data is correctly delivered to the intended recipient within a local network (e.g., Ethernet LAN).
+•	MAC addresses are typically expressed as a series of six pairs of hexadecimal digits (e.g., 00:1A:2B:3C:4D:5E).
+•	Unlike IP addresses, which can change when a device moves between networks, a MAC address is usually hard-coded into the network hardware and remains constant.
+These concepts are fundamental to networking and web communication. Understanding them is crucial for anyone working with computer networks, web development, or network administration.
