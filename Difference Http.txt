@@ -1,0 +1,18 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+Ans:
+1,Multiplexing: One significant improvement in HTTP/2 is the introduction of multiplexing. In HTTP/1.1, requests and responses are processed sequentially, which means that each request must wait for a response before the next request can be sent. However, HTTP/2 allows multiple requests to be sent concurrently over a single TCP connection, improving efficiency and reducing latency.
+
+2,Binary Protocol: HTTP/1.1 uses text-based headers, which can be inefficient due to their verbosity and the need for parsing at both ends. HTTP/2, on the other hand, employs a binary protocol that reduces the overhead by using binary framing. This allows for more efficient parsing and reduces network traffic.
+
+3,Header Compression: HTTP/2 introduces a new header compression algorithm called HPACK. With HPACK, HTTP headers are compressed before transmission, reducing the overall size of the headers and improving network performance.
+
+4,Server Push: Another notable feature in HTTP/2 is server push. With server push, a server can proactively send additional resources to the client without waiting for a request. This can greatly improve the performance of web applications, as the server can send associated resources ahead of time, reducing round-trips.
+
+5,Prioritization: HTTP/2 includes a prioritization mechanism that allows clients to assign a priority to each stream. This enables the client and the server to determine the order in which resources are processed, ensuring that more important resources are given higher priority.
+
+6,Compatibility: While HTTP/2 is not directly backward compatible with HTTP/1.1, it is designed to be compatible with existing web infrastructure. This means that most websites can gradually adopt HTTP/2 without requiring substantial changes to their backend systems.
+
+These are just a few of the main differences between HTTP/1.1 and HTTP/2. HTTP/2 offers improved performance, efficiency, and enhanced features compared to its predecessor.
+REGENERATE RESPONSE
+
+
